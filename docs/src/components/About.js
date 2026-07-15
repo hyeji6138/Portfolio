@@ -15,7 +15,6 @@ function About({ ref }) {
                         </div>
                         <div className="links">
                             <a href="https://www.notion.so/Jeong-Hyeji-a7c7eebdf9ec4278b23f5c27ffbcf8ef?source=copy_link" target="_blank"><img src={require("../images/skills/notion-link.png")} alt="노션 링크" /></a>
-                            {/* <a href="https://blog.naver.com/904log" target="_blank"><img src={require("../images/skills/blog-link.png")} alt="네이버블로그 링크"/></a> */}
                             <a href="https://github.com/904git" target="_blank"><img src={require("../images/skills/github-link.png")} alt="깃허브 링크"/></a>
                         </div>
                         <InfoBox title={'Career'} list={personal_info['Career']}></InfoBox>
