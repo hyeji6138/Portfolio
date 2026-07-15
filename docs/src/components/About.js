@@ -26,7 +26,7 @@ function About({ ref }) {
                         <InfoBox title={'Award'} list={personal_info['Award']}></InfoBox>
                     </div>
                     <div className="right-content">
-                        <div className="my-img"><img src={require('../images/sample.png')} /></div>
+                        <div className="my-img"><img src={require('../images/profile_img.jpg')} /></div>
                     </div>
                 </div>
             </div>

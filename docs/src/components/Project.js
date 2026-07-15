@@ -94,7 +94,10 @@ function Project({ ref }) {
                 </div>
                 <ul className='pages'>
                     {projects.map((project, idx) => {
-                        return <li id={project.img} key={idx}>{idx+1}</li>;
+                        return <li id={project.img} key={idx}
+                                    onClick={() => {
+                                        showProjectDetail(idx);
+                                    }}>{idx+1}</li>;
                     })}
                 </ul>
             </div>

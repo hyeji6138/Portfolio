@@ -38,6 +38,12 @@ let projects = [
         'url': 'https://www.notion.so/2a36d34f2e078093b6e8f2f0cc1eb61b?source=copy_link'
     },
     {
+        'img': 'ArchiveCalendar', 'name': '아카이브 캘린더', 'date': '2026.05',
+        'description': '캘린더 형식의 사진 아카이브',
+        'tags': ['FrontEnd', 'Web', 'Mobile', 'Personal'],
+        'url': 'https://app.notion.com/p/3946d34f2e07803f8788e3ca19061736?source=copy_link'
+    },
+    {
         'img': 'Earth Arcade', 'name': '뿅뿅 지구오락실', 'date': '2025.08 ~ 2025.09',
         'description': 'Tvn 예능 \'뿅뿅 지구오락실(Earth Arcade)\' 소개 페이지',
         'tags': ['FrontEnd', 'Web', 'Personal'],
@@ -55,6 +61,24 @@ let projects = [
         'tags': ['FrontEnd', 'Web', 'Team'],
         'url': 'https://www.notion.so/27f6d34f2e078000a8c8e2a462f35baa?source=copy_link'
     },
+    {
+        'img': 'BTS', 'name': 'BTS(Back To School)', 'date': '2021.04 ~ 2021.05',
+        'description': 'Z세대를 위한 학습 메타버스 플랫폼',
+        'tags': ['FrontEnd', 'Web', 'Team'],
+        'url': 'https://app.notion.com/p/BTS-Back-To-School-dc3a534b2a7a491d8f09ad887636671f?source=copy_link'
+    },
+    {
+        'img': 'Sera', 'name': 'Sera(세라)', 'date': '2021.02 ~ 2021.04',
+        'description': '코스메틱 추천 서비스',
+        'tags': ['BackEnd', 'Web', 'Team'],
+        'url': 'https://app.notion.com/p/Sera-f1b43d92c5f8484c936c2137a0479ea3?source=copy_link'
+    },
+    {
+        'img': 'Artmate', 'name': 'Artmate(아트메이트)', 'date': '2021.01 ~ 2021.02',
+        'description': '전시회 큐레이팅 SNS 서비스',
+        'tags': ['BackEnd', 'Web', 'Mobile', 'Team'],
+        'url': 'https://app.notion.com/p/Artmate-d94e9eb715f14d0a8bdbec12eccf2763?source=copy_link'
+    },
 ]
 
 let personal_info = {
@@ -71,7 +95,7 @@ let personal_info = {
         
     ],
     'Career': [['2021.07 ~ 2022.08 마음AI [AICC 솔루션개발팀]']],
-    'License': [['2024.09 정보처리기사']],
+    'License': [['2026.06 SQL 개발자'], ['2024.09 정보처리기사']],
 }
 
 let project_detail = [
